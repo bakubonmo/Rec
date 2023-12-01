@@ -266,7 +266,7 @@ testing_loader_loss = DataLoader(testing_dataset_loss,
         batch_size=batch_size, shuffle=False, num_workers=0)
 
 val_dataset_loss = data_utils.BPRData(
-        train_dict=val_user_set, num_item=item_num, num_ng=5, is_training=True,\
+        train_dict=val_user_set, num_item=item_num, num_ng=###, is_training=True,\
         data_set_count=val_set_count,all_rating=user_rating_set_all)
 val_loader_loss = DataLoader(val_dataset_loss,
         batch_size=batch_size, shuffle=False, num_workers=0)
