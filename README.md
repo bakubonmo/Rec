@@ -34,7 +34,7 @@ Lastly, paste the results into excel file on your PC(you can choose sheet of cor
 
 
 
-#GN-GCN
+# GN-GCN
 Point-of-interest (POI) recommendation helps users filter information and discover their interests. In recent years, 
 graph convolution network (GCN)– based methods have become state-of-the-art algorithms for improving recommendation performance. 
 Especially integrating GCN with multiple information, such as geographical information, is a promising way to achieve better performance;
