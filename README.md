@@ -99,8 +99,8 @@ Pytorch 1.11.0
 
 
 ## How to Start
-Firstly, Please download and put the dataset in the fold "data/datasetname/datanpy"
-Secondly, Please run the file "train" to train the model 
-Lastly, Please run the file "test" to test the model 
+Firstly, Please download and put the dataset in the fold "data/datasetname/datanpy" <br>
+Secondly, Please run the file "train" to train the model <br>
+Lastly, Please run the file "test" to test the model <br>
 
 
