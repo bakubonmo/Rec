@@ -66,5 +66,41 @@ Lastly, Please run the file "test" to test the model <br>
 
 
 <br><br><br>
+# EPT-GCN
+In location-based social networks (LBSNs), point-of-interest (POI) recommendation systems help users
+identify unvisited POIs by filtering large amounts of information. Accurate POI recommendations can
+effectively improve user satisfaction and save time in finding POIs. In recent years, the graph convolution
+network (GCN) technique, which enhances the representational ability of neural networks by learning the
+embeddings of users and items, has been widely adopted in recommendation systems to improve accuracy. 
+Combining GCN with various information, such as time and geographical information, can further
+improve recommendation performance. However, existing GCN-based techniques simply adopt time
+information by modeling users’ check-in sequences, which is insufficient and ignores users’ time-based
+high-order connectivity. Note that time-based high-order connectivity refers to the relationship between
+indirect neighbors with similar preferences in the same time slot. In this paper, we propose a new 
+time-aware GCN model to extract rich collaborative signals contained in time information. Our work is the first
+to divide user check-ins into multiple subgraphs, i.e., time slots, based on time information. We further
+propose an edge propagation module to adjust edge affiliation, where edges represent check-ins, 
+to propagate user’s time-based preference to multiple time slots. The propagation module is based on 
+an unsupervised learning algorithm and does not require additional ground-truth labels. Experimental results
+confirm that our method outperforms state-of-the-art GCN models in all baselines, improving Recall@5
+from 0.0803 to 0.0874 (8.84%) on the Gowalla dataset and from 0.0360 to 0.0388 (7.78%) on the New
+York dataset. The proposed subgraph mining technique and novel edge-based propagation module have
+high scalability and can be applied to other subgraph construction models.
+
+
+## Figure
+![image](https://github.com/bakubonmo/Rec/assets/122580605/8f16ed5f-ac2d-467b-9e1a-6c074e5f119c)
+
+
+
+## Prerequisites
+Python 3.6 <br>
+Pytorch 1.11.0
+
+
+## How to Start
+Firstly, Please download and put the dataset in the fold "data/datasetname/datanpy"
+Secondly, Please run the file "train" to train the model 
+Lastly, Please run the file "test" to test the model 
 
 
