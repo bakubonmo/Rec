@@ -31,6 +31,6 @@ Secondly, open the output log file and copy all the results. <br>
 Lastly, paste the results into excel file on your PC(you can choose sheet of corresponding time slot or create new sheet), the formulas will automatically give the result.
 
 
-## Results
+
 
 
