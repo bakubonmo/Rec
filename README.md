@@ -12,3 +12,19 @@ ad category. Second, we transform the optimization problem into a quadratic unco
 optimization model applying to the DA. The experimental evaluations on real log data show that our proposed 
 method improves accuracy score from 0.237 to 0.322 while shortening the periodic advertisement 
 recommendation from 526s to 108s (4.9 times speed-up) in comparison with traditional algorithms.
+
+##Prerequisites
+numpy
+Fujistu Daigital annealer(DA)
+
+
+##How to Start
+To finish an entire offline experiment: 
+Firstly, activate virtual environment (by ```source dau2.sh``` or other script) and run newdata_with_greedy_1124.py. 
+Secondly, open the output log file and copy all the results. 
+Lastly, paste the results into excel file on your PC(you can choose sheet of corresponding time slot or create new sheet), the formulas will automatically give the result.
+
+
+##Results
+
+
