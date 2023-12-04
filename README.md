@@ -57,10 +57,10 @@ Pytorch 1.11.0
 
 
 ## How to Start
-Firstly, Please download and put the dataset in the fold "data/datasetname/"
-Secondly, Please run geo2npy to process the dataset
-Thirdly, Please run the file "train" to train the model 
-Lastly, Please run the file "test" to test the model 
+Firstly, Please download and put the dataset in the fold "data/datasetname/" <br>
+Secondly, Please run geo2npy to process the dataset <br>
+Thirdly, Please run the file "train" to train the model  <br>
+Lastly, Please run the file "test" to test the model <br>
 
 
 
