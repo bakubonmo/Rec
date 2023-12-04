@@ -12,7 +12,7 @@ ad category. Second, we transform the optimization problem into a quadratic unco
 optimization model applying to the DA. The experimental evaluations on real log data show that our proposed 
 method improves accuracy score from 0.237 to 0.322 while shortening the periodic advertisement 
 recommendation from 526s to 108s (4.9 times speed-up) in comparison with traditional algorithms.
-![image](https://github.com/bakubonmo/Rec/assets/122580605/71eb7cd0-2bc8-49e0-8455-a78dcb77bcbe)
+
 
 
 
