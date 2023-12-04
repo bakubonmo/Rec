@@ -32,8 +32,7 @@ Lastly, paste the results into excel file on your PC(you can choose sheet of cor
 
 
 
-
-
+<br><br><br>
 # GN-GCN
 Point-of-interest (POI) recommendation helps users filter information and discover their interests. In recent years, 
 graph convolution network (GCN)– based methods have become state-of-the-art algorithms for improving recommendation performance. 
@@ -44,6 +43,24 @@ Our study is the first attempt to integrate geographic information into a GCN PO
 the number of trainable parameters and maintaining the ease of training. The experimental evaluation confirms that compared 
 with the state-of-the-art lightweight GCN models, our method improves Recall@10 from 0.0562 to 0.0590 (4.98%) on Yelp dataset and from 0.0865 to 0.0898 (3.82%) on Gowalla dataset.
 
+
+## Figure
+![image](https://github.com/bakubonmo/Rec/assets/122580605/3d673f5a-4058-458c-9655-32135adf8b30)
+
+
+
+
+## Prerequisites
+Python 3.6 <br>
+Pytorch 1.11.0
+
+
+
+## How to Start
+Firstly, Please download and put the dataset in the fold "data/datasetname/"
+Secondly, Please run geo2npy to process the dataset
+Thirdly, Please run the file "train" to train the model 
+Lastly, Please run the file "test" to test the model 
 
 
 
