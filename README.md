@@ -36,12 +36,12 @@ Lastly, paste the results into excel file on your PC(you can choose sheet of cor
 
 # GN-GCN
 Point-of-interest (POI) recommendation helps users filter information and discover their interests. In recent years, 
-graph convolution network (GCN)– based methods have become state-of-the-art algorithms for improving recommendation performance. 
+graph convolution network (GCN)– based methods have become state-of-the-art algorithms for improving recommendation performance. 
 Especially integrating GCN with multiple information, such as geographical information, is a promising way to achieve better performance;
 however, it tends to increase the number of trainable parameters, resulting in the difficulty of model training to reduce the performance. 
 In this study, we mine users’ active areas and extend the definition of neighbors in GCN, called active area neighbors. 
 Our study is the first attempt to integrate geographic information into a GCN POI recommendation system without increasing 
-the number of trainable parameters and maintaining the ease of training. The experimental evaluation confirms that compared 
+the number of trainable parameters and maintaining the ease of training. The experimental evaluation confirms that compared 
 with the state-of-the-art lightweight GCN models, our method improves Recall@10 from 0.0562 to 0.0590 (4.98%) on Yelp dataset and from 0.0865 to 0.0898 (3.82%) on Gowalla dataset.
 
 
