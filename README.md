@@ -20,14 +20,14 @@ recommendation from 526s to 108s (4.9 times speed-up) in comparison with traditi
 
 
 ## Prerequisites
-numpy
+numpy<br>
 Fujistu Daigital annealer(DA)
 
 
 ## How to Start
-To finish an entire offline experiment: 
-Firstly, activate virtual environment (by ```source dau2.sh``` or other script) and run newdata_with_greedy_1124.py. 
-Secondly, open the output log file and copy all the results. 
+To finish an entire offline experiment: <br>
+Firstly, activate virtual environment (by ```source dau2.sh``` or other script) and run newdata_with_greedy_1124.py. <br>
+Secondly, open the output log file and copy all the results. <br>
 Lastly, paste the results into excel file on your PC(you can choose sheet of corresponding time slot or create new sheet), the formulas will automatically give the result.
 
 
