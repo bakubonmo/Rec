@@ -57,7 +57,7 @@ Pytorch 1.11.0
 
 
 ## How to Start
-Please run geo2npy to process the dataset <br>
+Please run geo2npy to preprocess <br>
 Please run the file "train" to train the model  <br>
 Please run the file "test" to test the model <br>
 
