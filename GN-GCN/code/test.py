@@ -39,8 +39,8 @@ batch_size=2048*512
 top_k=5
 num_negative_test_val=-1##all   
 
-start_i_test=###
-end_i_test=###
+start_i_test=0
+end_i_test=1000
 setp=1
  
 

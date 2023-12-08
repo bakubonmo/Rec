@@ -284,7 +284,7 @@ optimizer_bpr = torch.optim.Adam(model.parameters(), lr=0.01)#, betas=(0.5, 0.99
 
 print('--------training processing-------')
 count, best_hr = 0, 0
-for epoch in range(###):
+for epoch in range(1000):
     model.train() 
     start_time = time.time()
     train_loader.dataset.ng_sample()
