@@ -38,7 +38,7 @@ item_num=6369
 factor_num=64
 batch_size=2048*128
 num_negative_test_val=-1
-num_ng = ###
+num_ng = 5
 
 run_id="s0"
 print(run_id)
@@ -413,14 +413,14 @@ val_loader_loss = DataLoader(val_dataset_loss,
 model = BPR(user_num, item_num, factor_num,sparse_u_i_morn,sparse_i_u_morn,sparse_u_i_noon,sparse_i_u_noon,sparse_u_i_night,sparse_i_u_night,sparse_u_i_midnight,sparse_i_u_midnight,sparse_u_i,sparse_i_u,d_i_train,d_j_train,training_user_set_morn, training_user_set_noon, training_user_set_night, training_user_set_midnight,table_geo_distance_user_item_general)
 model=model.to('cuda') 
 
-optimizer_bpr = torch.optim.Adam(model.parameters(), lr=####)
+optimizer_bpr = torch.optim.Adam(model.parameters(), lr=0.01)
 
 ########################### TRAINING #####################################
  
 
 print('--------training processing-------')
 count, best_hr = 0, 0
-for epoch in range(####):
+for epoch in range(1000):
     model.train() 
     start_time = time.time()
     train_loader.dataset.ng_sample()

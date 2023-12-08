@@ -38,10 +38,10 @@ item_num=6369
 factor_num=64
 batch_size=2048*128
 num_negative_test_val=-1
-num_ng = ###
-start_i_test=###
-end_i_test=###
-setp = ###
+num_ng = 5
+start_i_test=0
+end_i_test=1000
+setp = 1
 top_k = 5
 
 run_id="s0"
@@ -430,7 +430,7 @@ testing_loader = DataLoader(testing_dataset,batch_size=1, shuffle=False, num_wor
 model = BPR(user_num, item_num, factor_num,sparse_u_i_morn,sparse_i_u_morn,sparse_u_i_noon,sparse_i_u_noon,sparse_u_i_night,sparse_i_u_night,sparse_u_i_midnight,sparse_i_u_midnight,sparse_u_i,sparse_i_u,d_i_train,d_j_train,training_user_set_morn, training_user_set_noon, training_user_set_night, training_user_set_midnight,table_geo_distance_user_item_general)
 model=model.to('cuda')
    
-optimizer_bpr = torch.optim.Adam(model.parameters(), lr=####)
+optimizer_bpr = torch.optim.Adam(model.parameters(), lr=0.01)
 
 ########################### TRAINING ##################################### 
 # testing_loader_loss.dataset.ng_sample() 
